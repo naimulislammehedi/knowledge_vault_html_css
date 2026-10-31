@@ -6,30 +6,34 @@
 
 body {
     font-family: "Inter", sans-serif;
-    width: 95%;
-    max-width: 1360px;
+
     margin: 0 auto;
 }
 
 /* NAVIGATION SECTION */
 nav {
+    width: 95%;
+    max-width: 1360px;
     display: flex;
     margin: 21px auto 0;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 16px;
 }
 
 .nav-menu ul {
     display: flex;
-    
+
     list-style: none;
     gap: 32px;
 }
 
 .nav-menu ul li a {
     text-decoration: none;
-    color: black;
-    transition: background-color 0.3s ease;
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .nav-menu ul li a:hover {
@@ -37,7 +41,7 @@ nav {
     color: #fff;
 }
 
-.btn {
+.btn-primary {
     background-color: #469165;
     padding: 16px 20px;
     border: none;
@@ -50,6 +54,85 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+
+.btn-primary:hover {
     background-color: #357a50;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background:
+        linear-gradient(rgba(0, 25, 49, 0.8),
+            rgba(0, 25, 49, 0.842)),
+        url("./img/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 674px;
+    text-align: center;
+}
+
+.hero-content {
+    /* border: 1px solid red; */
+    width: 95%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 115px;
+    
+}
+
+.early-access {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: #469165;
+}
+
+.hero-content h1 {
+    color: #fff;
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.hero-content h1 span {
+    color: #30B868;
+}
+
+.hero-text {
+    color: #fff;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto 0;
+    gap: 16px;
+}
+
+.btn-secondary {
+    /* background-color: #469165; */
+    background-color: transparent;
+    padding: 16px 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #469165;
 }
