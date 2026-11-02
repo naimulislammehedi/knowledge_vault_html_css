@@ -136,3 +136,55 @@ nav {
     background-color: #fff;
     color: #469165;
 }
+
+/* FEATURES SECTION */
+.features {
+    width: 95%;
+    max-width: 1360px;
+    margin: 30px auto 18px;
+    text-align: center;
+}
+
+.features-content {
+    margin-bottom: 44px;
+}
+
+.features-content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.features-content p {
+    color: #627382;
+}
+
+.features-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.card {
+    padding: 50px;
+    width: 332px;
+    height: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.card-icon {
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;   
+    border-radius: 50%; 
+}
+
+.card h3 {
+    margin: 24px 16px;
+}
