@@ -188,3 +188,75 @@ nav {
 .card h3 {
     margin: 24px 16px;
 }
+
+/* SOLUTION SECTION DESIGN */
+.solution {
+    /* border: 1px solid red; */
+    width: 95%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.solution-left img {
+    width: 600px;
+    height: 600px;
+}
+
+.solution-right {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.solution-semi-title {
+    color: #469165;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.solution-title {
+    font-size: 48px;
+    color: #001931;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+
+.solution-text {
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.solution-right ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.solution-right ul li {
+    font-weight: 16px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.solution-right ul li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("./img/icon/CheckCircle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
