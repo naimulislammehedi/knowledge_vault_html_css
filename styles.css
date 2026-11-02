@@ -288,3 +288,51 @@ nav {
 .decision button {
     margin-bottom:  16px;
 }
+
+/* DESIGN FOOTER SECTION */
+footer {
+    background-color: #001931;
+    padding: 120px 120px 50px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-right {
+    color: #fff;
+}
+
+.ft-right p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 16px;
+    
+}
+
+.sm-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.footer-bottom hr {
+    margin-bottom: 30px;
+    opacity: 20%;
+}
